@@ -1,0 +1,65 @@
+.od{
+    height: 550px;
+    background-color: bisque;
+}
+
+
+.hd{
+    height:50px;
+    background-image: url('cover3.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 30px;
+}
+
+.brand img{
+    width: 65px;
+}
+
+/*.menudiv also can be used by replacing the .brand .menudiv */
+.menudiv{
+    margin-top: -55px;
+    margin-left: 80px;
+}
+
+.menudiv ul li{
+    display: inline;
+    margin-right: 6px;
+}
+
+
+.menudiv .nav-link{
+    text-decoration: none;
+}
+
+.menudiv .nav-link:link{
+    color:rgb(151, 219, 14);
+}
+
+.menudiv .nav-link:visited{
+    color:lavender;
+}
+/* :hover these type of colon textor tags is known as sudo selector*/
+.menudiv .nav-link:hover{
+    color:rgb(240, 18, 18);
+}
+
+.menudiv .nav-link:active{
+    color:blueviolet;
+}
+
+.md{
+    background-color: whitesmoke;
+    height: 550px;
+}
+.md iframe{
+    width: 98%;
+    margin: 10px;
+    height: 100%;
+}
+
+.fd{
+    background-color:rgb(244, 159, 159);
+    height: 60px;
+}
